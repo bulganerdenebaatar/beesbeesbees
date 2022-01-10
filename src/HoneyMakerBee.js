@@ -5,7 +5,7 @@ var HoneyMakerBee = function() {
   this.honeyPot = 0;
 
 };
-HoneyMakerBee.prototype = Object.create(Grub.prototype); // inherit from Grub
+HoneyMakerBee.prototype = Object.create(Bee.prototype); // inherit from Grub
 HoneyMakerBee.prototype.makeHoney = function () {
   this.honeyPot += 1;
 };
